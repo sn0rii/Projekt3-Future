@@ -7,6 +7,8 @@
   --crumbly-lipstick: #f063b8;
   --crumbly-lipstick-lighter: #f063b826;
   --matt-purple: #9c69e2;
+  /* --matt-purple-shadow: #9c69e24d; */
+  --matt-purple-shadow: rgba(156, 105, 226, 0.3);
   --shot-over: #4b5d68;
   --spaceescape: #212353;
   --white: #ffffff;
@@ -328,7 +330,9 @@
   height: 330px;
   border-radius: 20px;
   background-color: var(--white);
-  box-shadow: 0px 20px 0px 0px rgba(156, 105, 226, 0.3);
+  /* -webkit-box-shadow: var(--matt-purple-shadow);                       JAK DODAC SHADOW  */
+  /* box-shadow: var(--matt-purple-shadow); */
+  box-shadow: 0px 20px 0px 0px var(--matt-purple-shadow);
 }
 .testimonials-name {
   color: var(--spaceescape);
@@ -388,3 +392,35 @@
 }
 
 /* FOOTER */
+
+.footer-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-header-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.footer-header {
+  color: var(--spaceescape);
+  font-family: Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+}
+.footer-subtitle {
+  color: var(--shot-over);
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 29px;
+  margin-top: 20px;
+}
+
+.footer-buttons {
+  display: flex;
+}
