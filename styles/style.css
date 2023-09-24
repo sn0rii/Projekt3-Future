@@ -259,10 +259,15 @@
   justify-content: space-evenly;
 }
 
-.properties-background {
-  background-image: url(../assets/images/Properties\ Background.svg);
+.properties-background-1 {
+  background-image: url(../assets/images/Properties\ Background\ 1.svg);
   background-repeat: no-repeat;
-  background-position: right 50px;
+  background-position: 100px 50px;
+}
+.properties-background-2 {
+  background-image: url(../assets/images/Properties\ Background\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: 100px 50px;
 }
 
 .properties-wrapper {
@@ -375,9 +380,15 @@
   letter-spacing: 0.14px;
 }
 .testimonials-footer {
+  display: flex;
+  justify-content: space-between;
   margin-left: 95px;
   margin-top: 60px;
 }
+.arrows-wrapper {
+  margin-right: 95px;
+}
+
 .testimonials-description {
   width: 385px;
   height: 130px;
