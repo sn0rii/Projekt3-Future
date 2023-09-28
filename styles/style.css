@@ -249,7 +249,7 @@
   /* gap: 145px; */
   margin-top: 100px;
   margin-bottom: 50px;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .properties {
@@ -310,6 +310,11 @@
   height: 360px;
   width: 450px;
   flex-shrink: 0;
+  width: 442px;
+  height: 358px;
+  background-image: url(../assets/images/Properties\ Background\ 1.svg);
+  background-repeat: no-repeat;
+  background-position: 50px;
 }
 
 .properties-image {
